@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Tomorrow&display=swap&subset=latin-ext');
 *,
 *::before,
 *::after {
@@ -11,7 +11,7 @@
   --main-white: #fff;
   --main-font-dark-gray: #4d4d4d;
   --main-footer-bg-color: #141414;
-  --main-font-family: 'Cheddar Jack', cursive;
+  --main-font-family: 'Tomorrow', sans-serif;
   --main-blue: rgba(7, 154, 212, 0.7);
   --main-font: 'Bowlby One SC', cursive;
 }
