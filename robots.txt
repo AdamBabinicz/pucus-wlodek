@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://myjnia-pucus.netlify.com/sitemap.xml

@@ -196,7 +196,7 @@ video {
   font-size: 2.5rem;
   line-height: 1.5;
   position: relative;
-  text-shadow: 0 0 0.5em #efeef5, 0 0 0.5em #000, 0 0 0.5em #000;
+  text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.21);
   margin: 0 2rem;
   padding: 0 2rem;
 }
@@ -289,7 +289,7 @@ video {
 }
 .store {
   width: 100%;
-  height: 40rem;
+  height: 60rem;
   background: url('../images/car-wash-2749824_1920.jpg') center/cover no-repeat,
     url('../images/car-wash-2749824_1920.jpg') center/cover no-repeat;
 }
@@ -301,7 +301,7 @@ video {
 .image-group img {
   max-width: 100%;
 }
-.fresh-ingredients {
+.fresh {
   width: 100%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/washing-car-1397382_1920.jpg') center/cover no-repeat;
@@ -403,10 +403,8 @@ footer h5 {
   #story {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(1050px, 1fr));
-    grid-gap: 5px;
-  }
-  #story img {
+    /* grid-template-rows: repeat(auto-fit, minmax(1050px, 1fr)); */
+    grid-row-gap: 5rem;
   }
   .image-group {
     display: grid;
@@ -435,9 +433,10 @@ footer h5 {
   }
   .store {
     width: 100%;
-    height: 100vh;
-    background: url('../images/auto-2749830_1920.jpg') center/cover no-repeat,
-      url('../images/car-wash-2749824_1920.jpg') center/contain no-repeat;
+    height: 120vh;
+    background: url('../images/auto-1006216_1920.jpg') top center/contain
+        no-repeat,
+      url('../images/car-wash-2749824_1920.jpg') bottom center/contain no-repeat;
   }
   .btn-info {
     font-size: 1.8rem;
